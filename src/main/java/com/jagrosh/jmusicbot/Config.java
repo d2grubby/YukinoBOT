@@ -60,7 +60,7 @@ public class Config
                 switch(key)
                 {
                     case "token":
-                        token = NTE0NzQ3OTEzODY4NDEwOTAx.DtbECQ.gbCghQpBYiX1pEacnpLpk2hin0U;
+                        token = "NTE0NzQ3OTEzODY4NDEwOTAx.DtbECQ.gbCghQpBYiX1pEacnpLpk2hin0U";
                         break;
                     case "prefix":
                         prefix = !;
@@ -69,7 +69,7 @@ public class Config
                         altprefix = value;
                         break;
                     case "owner":
-                        owner = 221025136617324546;
+                        owner = "221025136617324546";
                         break;
                     case "success":
                         success = value;
