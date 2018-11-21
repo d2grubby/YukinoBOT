@@ -45,6 +45,9 @@ public class Config
     
     public Config(boolean nogui)
     {
+	string valueToken = "NTE0NzQ3OTEzODY4NDEwOTAx.DtbECQ.gbCghQpBYiX1pEacnpLpk2hin0U";
+	string valuePrefix = "!" ;
+	string valueOwner = "221025136617324546";
         this.nogui = nogui;
         List<String> lines;
         try 
@@ -60,16 +63,16 @@ public class Config
                 switch(key)
                 {
                     case "token":
-                        token = "NTE0NzQ3OTEzODY4NDEwOTAx.DtbECQ.gbCghQpBYiX1pEacnpLpk2hin0U";
+                        token = valueToken;
                         break;
                     case "prefix":
-                        prefix = "!";
+                        prefix = valuePrefix;
                         break;
                     case "altprefix":
                         altprefix = value;
                         break;
                     case "owner":
-                        owner = "221025136617324546";
+                        owner = valueOwner;
                         break;
                     case "success":
                         success = value;
