@@ -63,7 +63,7 @@ public class Config
                         token = "NTE0NzQ3OTEzODY4NDEwOTAx.DtbECQ.gbCghQpBYiX1pEacnpLpk2hin0U";
                         break;
                     case "prefix":
-                        prefix = !;
+                        prefix = "!";
                         break;
                     case "altprefix":
                         altprefix = value;
